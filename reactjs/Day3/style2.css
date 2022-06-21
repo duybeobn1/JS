@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+header {
+    display: flex;
+    background-color: rgb(62, 58, 58);
+}
+
+header ul li {
+    display: block;
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+
+header ul li:hover {
+    background-color: #00b300;
+}
+
+header a {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 22px 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    width: 850px;
+    height: 500px;
+    background-color: #EEEEEE;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.main-header {
+    width: 100%;
+    height: 70px;
+    background-color: #003366;
+    color: white;
+}
+
+.main-header a {
+    float: right;
+    padding: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 11px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.main-header a:hover {
+    background-color: #001a35;
+}
+
+.main-header a:focus {
+    background-color: #001a35;
+}
+
+.main-header a#bootstrap {
+    display: inline-flex;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-right: 15px;
+    float: left;
+}
+
+.contact {
+    padding-top: 50px;
+    text-align: center;
+    color: #003366;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 10px;
+    color: #003366
+}
+
+.star-line {
+    background-color: #003366;
+    height: 3px;
+    width: 120px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.fill {
+    display: flex;
+    justify-content: center;
+}
+
+.fill input {
+    display: block;
+    width: 500px;
+    height: 25px;
+    margin-top: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: lightgray;
+    border: none;
+    border-top: 1px solid #9b9a9a;
+}
+
+.fill input:focus {
+    border: none;
+    height: 35px;
+    border-top: 1px solid #EEEEEE;
+}
