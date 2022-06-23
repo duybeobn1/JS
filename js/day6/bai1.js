@@ -1,10 +1,10 @@
 function calBmi(x, y) {
     return x / y ** 2;
 }
-var Mark = (78, 1.69);
-var John = (92, 1.95);
-var Marry = (95, 1.88);
-var Harry = (85, 1.76);
+const Mark = (78, 1.69);
+const John = (92, 1.95);
+const Marry = (95, 1.88);
+const Harry = (85, 1.76);
 
 //test 1
 if (calBmi(Mark) == calBmi(John)) {
