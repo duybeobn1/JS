@@ -1,4 +1,4 @@
-function countV(str = "") {
+function countStr(str = "") {
     str = str.toLowerCase();
     let count = 0;
     for (let i = 0; i < str.length; i++) {
@@ -8,4 +8,4 @@ function countV(str = "") {
     }
     return count;
 }
-console.log(countV("test"));
+console.log(countStr("test"));
