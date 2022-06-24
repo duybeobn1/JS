@@ -1,0 +1,131 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    body .container1,
+    .container2,
+    .container3 {
+        background-color: rgb(231, 227, 227);
+    }
+    
+    body .container1 .col-md-4 {
+        border-right: 1px solid;
+        margin-bottom: 15px;
+    }
+    
+    body .container1 .mydinh {
+        border-right: none
+    }
+    
+    body .container1,
+    .container2 {
+        border-bottom: 1px solid rgb(212, 208, 208);
+    }
+    
+    body .container1 {
+        line-height: 1.7;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0px;
+        font-size: 14px;
+        color: #000;
+    }
+    
+    body .container2 h4 span {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 0px;
+        line-height: 34px;
+        font-weight: 500;
+        margin-top: 0px;
+        position: relative;
+        padding-bottom: 5px;
+        text-transform: uppercase;
+    }
+    
+    body .container2 ul li {
+        padding: 5px;
+        transition: 0.5s;
+        margin: 5px;
+    }
+    
+    body .container2 ul li a {
+        color: black;
+        font-size: 12px;
+    }
+    
+    body .container2 ul li:hover {
+        transform: translate(10px);
+    }
+    
+    body .container2 .form .form-block .row .col-xs-12 .style-form-group input,
+    textarea {
+        background-color: rgb(231, 227, 227);
+        border: none;
+        border-bottom: 1px solid rgb(212, 208, 208);
+        padding: 10px;
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        color: #1c1c1c;
+        margin: auto;
+    }
+    
+    body button {
+        line-height: 1.7;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0px;
+        overflow: visible;
+        color: #ffffff;
+        border: none;
+        background-color: #636060;
+        border-color: #636060;
+        padding: 6px 15px;
+        font-size: 11px;
+        cursor: pointer;
+        margin: 10px 0;
+        margin-bottom: 50px;
+    }
+    
+    body .container3 ul li {
+        display: inline-block;
+        position: relative;
+        padding: 20px 0px;
+    }
+    
+    body .container3 ul li a {
+        font-size: 12px;
+        color: black;
+        border-right: 1px solid black;
+    }
+    
+    body .container3 ul li a#last-item {
+        border: none;
+    }
+    
+    footer {
+        margin: auto;
+    }
+    
+    body footer .copyright .x1 .inner .row .fot_copyright p {
+        display: block;
+        margin: auto;
+        text-align: center;
+        font-size: 12px;
+        margin: 10px auto;
+    }
+    
+    body footer a i {
+        float: right;
+        background-color: black;
+        color: white;
+        padding: 7px;
+        border: 1px solid rgb(152, 149, 149);
+        border-radius: 50%;
+        margin-right: 18px;
+    }
