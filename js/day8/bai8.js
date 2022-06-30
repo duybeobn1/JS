@@ -19,7 +19,6 @@ const object = [{
     }
 ]
 
-console.log(object.reduce(function(arr, currentPos) {
-    arr.push(currentPos.address + "," + currentPos.district + "," + currentPos.province + "," + currentPos.city);
-    return arr;
-}, []));
+for (i = 0; i < object.length; i++) {
+    console.log(JSON.stringify(`${object[i].address} ${object[i].district} ${object[i].province} ${object[i].city}`));
+}
