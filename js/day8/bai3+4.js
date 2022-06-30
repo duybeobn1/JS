@@ -19,5 +19,4 @@ function renameObjectKey(object) {
     delete object.last_name;
 };
 renameObjectKey(databases);
-changeToCamel = databases.map(renameObjectKey)
-console.log(changeToCamel);
+console.log( databases.map(renameObjectKey));
