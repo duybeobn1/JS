@@ -20,5 +20,5 @@ const object = [{
 ]
 
 for (i = 0; i < object.length; i++) {
-    console.log(JSON.stringify(`${object[i].address} ${object[i].district} ${object[i].province} ${object[i].city}`));
+    console.log((`${object[i].address} ${object[i].district} ${object[i].province} ${object[i].city}`));
 }
