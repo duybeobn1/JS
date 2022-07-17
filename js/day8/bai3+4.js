@@ -1,13 +1,10 @@
 let databases = require('./data.json');
 //bai3
-let full_name = [];
-let changeToCamel = [];
-
 function getFullName(databases) {
     return databases.first_name + " " + databases.last_name;
 }
 
-full_name = databases.map(getFullName);
+let full_name = databases.map(getFullName);
 // console.log(full_name)
 
 
@@ -19,5 +16,4 @@ function renameObjectKey(object) {
     delete object.last_name;
 };
 renameObjectKey(databases);
-changeToCamel = databases.map(renameObjectKey)
-console.log(changeToCamel);
+console.log(databases.map(renameObjectKey));
